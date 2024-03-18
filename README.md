@@ -1,6 +1,15 @@
 # kafka-nodejs-docker
 Added by Ashish Kumar Saxena
 
+# How to Setup on local machine
+
+```
+Step1: clone the repo - git clone https://github.com/saxenaashish05/kafka-nodejs-docker.git
+Step2:  cd kafka-nodej-docker
+Step3:  tree (see the below folder structure)
+Step4:  run the command - docker compose up -d 
+```
+
 # Folder Structure
 ```
 .
@@ -56,7 +65,7 @@ Added by Ashish Kumar Saxena
 
 15 directories, 34 files
 ```
-# Deploy with Docker on local machine
+# Deploy with Docker on the local machine
 ```
 
 Please run the command at the root folder level of the project.
