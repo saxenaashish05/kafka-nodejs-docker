@@ -130,7 +130,7 @@ docker logs backend
 ![page](consumer.png)
 
 
-Note: After generating the Docker images, it is better to store them in a central location. . e-g docker hub 
+Note: After completing the setup,  generate the Docker images, it is better to store them in a central location. . e-g docker hub 
 ```
 docker images
 ```
