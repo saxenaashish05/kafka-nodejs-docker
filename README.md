@@ -81,5 +81,9 @@ amogh@amogh-Vostro-3480:~/kafka-nodejs-docker$ docker compose up -d
  ✔ Container frontend                               Started                                                                                     205.3s 
 ```
 # Kafka UI
+ Go to url - http://localhost:9000
 ![page](kafka-ui.png)
+# Frontend Application 
+  Go to url - http://localhost:3000
+![page](frontend.png)
 
