@@ -99,3 +99,20 @@ amogh@amogh-Vostro-3480:~/kafka-nodejs-docker$ docker exec -it backend sh
 output: added 1 package, and audited 214 packages in 11s
 
 ```
+# Data producing from frontend into mongo and Kafka
+![page](data.png)
+# Producer - Topic
+![page](kafka-topic.png)
+go to terminal
+```
+docker exec -it backend sh
+node consumer.js
+```
+Open new terminal tab 
+```
+docker logs backend
+```
+![page](consumer.png)
+
+
+
