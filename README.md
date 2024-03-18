@@ -56,3 +56,29 @@ Added by Ashish Kumar Saxena
 
 15 directories, 34 files
 ```
+# Deploy with Docker on local machine
+```
+
+run at the project root folder level below the command
+
+docker compose up -d
+
+amogh@amogh-Vostro-3480:~/kafka-nodejs-docker$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+amogh@amogh-Vostro-3480:~/kafka-nodejs-docker$ docker compose up -d
+[+] Running 0/1
+ ⠹ Network kafka-nodejs-docker_express-mongo        Created                                                                                       1.2s 
+[+] Running 8/10-nodejs-docker_react-express-kafka  Creating                                                                                      0.1s 
+ ⠏ Network kafka-nodejs-docker_express-mongo        Created                                                                                     224.9s  
+ ⠧ Network kafka-nodejs-docker_react-express-kafka  Created                                                                                     223.7s 
+ ✔ Container kafka-nodejs-docker-kafka-1            Started                                                                                     195.2s 
+ ✔ Container mongo                                  Started                                                                                     196.7s 
+ ✔ Container kafka-nodejs-docker-zookeeper-1        Started                                                                                     192.6s 
+ ✔ Container backend                                Started                                                                                     202.4s 
+ ✔ Container kafka-nodejs-docker-kafka2-1           Started                                                                                     193.7s 
+ ✔ Container kafka-nodejs-docker-kafdrop-1          Started                                                                                     198.5s 
+ ✔ Container kafka-ui                               Started                                                                                     197.3s 
+ ✔ Container frontend                               Started                                                                                     205.3s 
+```
+
+
