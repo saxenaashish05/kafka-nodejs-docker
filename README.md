@@ -59,7 +59,7 @@ Added by Ashish Kumar Saxena
 # Deploy with Docker on local machine
 ```
 
-run at the project root folder level below the command
+Please run the command at the root folder level of the project.
 
 docker compose up -d
 
