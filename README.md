@@ -80,5 +80,6 @@ amogh@amogh-Vostro-3480:~/kafka-nodejs-docker$ docker compose up -d
  ✔ Container kafka-ui                               Started                                                                                     197.3s 
  ✔ Container frontend                               Started                                                                                     205.3s 
 ```
-
+# Kafka UI
+![page](kafka-ui.png)
 
