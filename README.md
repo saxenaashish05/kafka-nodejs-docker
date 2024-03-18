@@ -1,9 +1,15 @@
 # kafka-nodejs-docker
 Added by Ashish Kumar Saxena
+# Prerequisites 
+```
+ To use Docker on your computer, you need to set it up locally.
+ https://www.docker.com/get-started/
+```
 
 # How to Setup on local machine
 
 ```
+
 Step1:  git clone https://github.com/saxenaashish05/kafka-nodejs-docker.git
 Step2:  cd kafka-nodej-docker
 Step3:  tree
@@ -123,5 +129,10 @@ docker logs backend
 ```
 ![page](consumer.png)
 
+
+Note: After generating the Docker images, it is better to store them in a central location. . e-g docker hub 
+```
+docker images
+```
 
 
