@@ -87,3 +87,15 @@ amogh@amogh-Vostro-3480:~/kafka-nodejs-docker$ docker compose up -d
   Go to url - http://localhost:3000
 ![page](frontend.png)
 
+# Backend container
+```
+docker exec -it backend sh
+npm install kafkajs
+
+amogh@amogh-Vostro-3480:~$ cd kafka-nodejs-docker/
+amogh@amogh-Vostro-3480:~/kafka-nodejs-docker$ docker exec -it backend sh
+# npm install kafkajs
+
+output: added 1 package, and audited 214 packages in 11s
+
+```
