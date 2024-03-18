@@ -4,10 +4,10 @@ Added by Ashish Kumar Saxena
 # How to Setup on local machine
 
 ```
-Step1: clone the repo - git clone https://github.com/saxenaashish05/kafka-nodejs-docker.git
+Step1:  git clone https://github.com/saxenaashish05/kafka-nodejs-docker.git
 Step2:  cd kafka-nodej-docker
-Step3:  tree (see the below folder structure)
-Step4:  run the command - docker compose up -d 
+Step3:  tree
+Step4:  docker compose up -d 
 ```
 
 # Folder Structure
